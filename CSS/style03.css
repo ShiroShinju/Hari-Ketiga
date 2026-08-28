@@ -1,0 +1,22 @@
+/* Styling umum halaman*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f6;
+    color: #333333;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 28px;
+    color: #1a252f;
+    margin: 30px 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 40px 20px;
+}
+

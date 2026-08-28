@@ -1,0 +1,99 @@
+/* Styling Halaman Utama */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f3f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Kartu Putih */
+.card {
+    background-color: #f6f6f6;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 900px;
+}
+
+.title {
+    color: #0b4a8b;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+/* Styling Tabel Utama */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+/* Header Tabel */
+.custom-table th {
+    background-color: #034b8e;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Border Radius untuk Sudut Header */
+.custom-table th:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: center;
+}
+
+.custom-table th:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    text-align: center;
+}
+
+/* Isian Tabel (Baris & Sel) */
+.custom-table td {
+    padding: 14px 16px;
+    color: #444444;
+}
+
+.custom-table td:first-child,
+.custom-table td:last-child {
+    text-align: center;
+}
+
+/* Zebra Striping (Baris Genap Berwarna Kebiru-biruan Terang) */
+.custom-table tbody tr:nth-child(even) {
+    background-color: #c6d3eb;
+}
+
+/* Efek Hover Saat Kursor Diarahkan ke Baris Tabel */
+.custom-table tbody tr:hover {
+    background-color: #e8f0fe;
+}
+
+/* Styling Badge Status (Lulus & Proses) */
+.badge {
+    display: inline-block;
+    padding: 5px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badge-lulus {
+    background-color: #d1f2d9;
+    color: #0f7b34;
+}
+
+.badge-proses {
+    background-color: #fde8cd;
+    color: #b15200;
+}

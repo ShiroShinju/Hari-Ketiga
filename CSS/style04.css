@@ -1,0 +1,76 @@
+/* Styling halaman utama*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* card container putih */
+.card {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+
+}
+
+.card h2 {
+    color: #0d47a1;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.card p {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* --- DEMO STATUS LINK CSS (:link, :visited, :hover, :active) --- */
+
+/* Base Style Tombol Link */
+.btn-link {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+/* 1. Normal State (Sebelum diklik / unvisited) */
+.btn-link:link {
+    background-color: #0d47a1; /* Biru Tua */
+    color: #ffffff;
+}
+
+/* 2. Visited State (Setelah link pernah diklik/dikunjungi) */
+.btn-link:visited {
+    background-color: #6c757d; /* Abu-abu */
+    color: #ffffff;
+}
+
+/* 3. Hover State (Saat kursor diarahkan ke tombol) */
+.btn-link:hover {
+    background-color: #fbc02d; /* Kuning terang */
+    color: #000000;            /* Teks Hitam */
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+/* 4. Active State (Saat tombol sedang ditekan/diklik) */
+.btn-link:active {
+    background-color: #003c8f; /* Biru Gelap/Intens */
+    color: #ffffff;
+    transform: translateY(1px);    /* Efek sedikit tertekan */
+}
